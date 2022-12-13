@@ -6,7 +6,7 @@ module.exports = {
         port: 8081
     },
     plugins: [
-        new HtmlWebpackPlugin({
+     new HtmlWebpackPlugin({
             template: './public/index.html'
         })
     ]
